@@ -1,0 +1,774 @@
+
+body{
+    height: 4000px;
+    perspective: 700px;
+}
+
+
+.pig1{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(226, 43, 180);
+    border: 1px  solid rgb(247, 8, 147);
+}
+.titlle1{
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(245, 6, 165);
+    text-transform: uppercase;
+    font-size: 30px;  
+    animation-name: chlild;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    float: left;
+    
+}
+
+@keyframes chlild {
+    0%{color: rgb(150, 21, 96);}
+    25%{color: blue;}
+    50%{color: blueviolet;}
+    75%{color: rgb(153, 165, 42); width: 100px;}
+    100% {color: rgb(48, 12, 250);}
+}
+.ll1{
+    display: inline-block;
+    float: right;
+    margin: 0 40px 0  0;
+    animation-name: li1;
+    animation-duration: 3s;
+    margin-left: 10px;
+    font-size: 25px;
+    position: relative;
+    
+}
+
+@keyframes li1 {
+    0%{color: rgb(247, 8, 147);}
+    25%{color: blue;}
+    50%{color: blueviolet;}
+    75%{color: rgb(153, 165, 42);}
+    100% {color: rgb(250, 12, 178);}
+}
+
+
+
+
+
+.nn{
+    margin-right:300px;
+    margin-top: 20px;
+    padding-top: 30px;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+.a1{
+    text-decoration: none;
+}
+
+.a1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    top:0;
+    left: 0;
+    border-left: 1px   solid rgb(89, 0, 255);
+    border-right: 1px    solid  rgb(38, 0, 255);
+}
+
+.a1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.a1::before{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    border-bottom:  2px   solid rgb(0, 68, 255);
+    border-top: 2px    solid    rgb(25, 0, 255);
+}
+
+.a1:hover::before{
+    width:100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.div-icon{
+    margin-left: 700px;
+}    
+.ii1{
+    float: right;
+    font-size: 35px;
+}
+.ii1{
+    float: right;
+    padding-left: 800px;
+}
+
+.div-image{
+    position: relative;
+    height: 500px;
+   width: 70%;
+   margin-left: 200px;
+    background-size: cover;
+    animation-name: mm;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mm{
+    0%{background-image: url(../text/imde/صوره\ كبيره2.jfif);}
+    25%{background-image: url(../text/imde/صوره\ كبيره2.jfif);}
+    50%{background-image: url(../text/imde/صوره\ كبيره3.jpeg);}
+    75%{background-image: url(../text/imde/صوره\ كبيره3.jpeg);}
+    100%{background-image: url(../text/imde/صوره\ كبيره2.jfif);}
+}
+.overlay{
+    position: absolute;
+    height:500px;
+    width: 70%;
+    background-color: rgb(245, 236, 244);
+    opacity: 0.6;
+    margin-left: 200px;
+    margin-top:-500px;
+}
+.sid1{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin-top: -300px;
+    margin-left: 200px;
+    text-align: center;
+    padding-top: 30px;
+
+    padding-bottom: 10px;
+    color: rgb(240, 13, 183);
+    font-size: 30px;
+}
+.bo:hover{
+    background-color: rgb(219, 11, 126);
+}
+.bo{
+    width: 100px;
+    height: 30px;
+}
+
+
+.tittle-main{
+    color: rgb(233, 12, 159);
+    margin-top:100px;
+    margin-left: 550px;
+}
+.tittle-main-line{
+    width: 100px;
+    height:0px;
+    background-color: rgb(224, 3, 169);
+    border: 1px  solid rgb(233, 12, 159);
+    margin: auto;
+    margin-top: -10px;
+}
+.section4-div1{
+    width: 200px;
+    height: 350px ;
+    border: 1px  solid rgb(238, 11, 162);
+    float: left;
+    margin-left: 100px;
+}
+
+
+.section4-div2{
+    width: 200px;
+    height: 350px ;
+    border: 1px  solid rgb(241, 5, 202);
+    float: left;
+margin-left: 50px;
+}
+
+.section4-div3{
+    width: 200px;
+    height: 350px ;
+    border: 1px  solid rgb(245, 4, 173);
+    float: left;
+margin-left: 50px;
+}
+
+.section4-div4{
+    width: 200px;
+    height: 350px ;
+    border: 1px  solid rgb(247, 5, 194);
+    float: left;
+margin-left: 50px;
+}
+.section4{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.p2{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 5px;
+    animation-name: girl;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes girl{
+    0%{ color: rgb(250, 13, 179); }
+    25% {color: rgb(75, 42, 165);}
+    50% {color: rgb(240, 18, 192);}
+    75%{color: rgb(78, 54, 143);}
+    100%{color: rgb(79, 42, 165);}
+}
+
+.ss1{
+    margin-top: 400px;
+    background-color: rgb(243, 9, 204);
+    font-size: 30px;
+}
+ .ss1:hover{
+   opacity: 1;
+ }
+
+.ss2{
+    margin-left: -300px;
+    background-color: rgb(235, 10, 186);
+    font-size: 50px;
+    opacity: 0;
+}
+
+.ss2:hover{
+    opacity: 1;
+  }
+ 
+.ss3{
+    margin-left: -300px;
+    background-color: rgb(243, 12, 205);
+    font-size: 50px;
+    opacity: 0;
+}
+.ss3:hover{
+    opacity: 1;
+  }
+ 
+ .ss4{
+    margin-left:-300px;
+    background-color: rgb(241, 12, 203);
+    font-size: 50px;
+    opacity: 0;
+ }
+ .ss4:hover{
+    opacity: 1;
+  }
+ .insid-pig{
+    width: 400px;
+    height: 250px;
+background-color: rgb(247, 3, 186);
+margin-left: 200px;
+animation-name: nasr;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+
+ } 
+
+ 
+ .p-insid{
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: center;
+ }
+ .insid-pig1{
+    width: 200px;
+    height: 250px;
+    border: 1px   solid rgb(197, 30, 141);
+    float: left;
+    margin-left: 700px;
+    margin-top: -250px;
+    background-image: url(../text/imde/صور\ جانبيه.jfif);
+    transition: 1s;
+ }
+
+ .insid-pig1:hover {
+    transform: scale(1.1);
+ }
+ .insid-pig2{
+    width: 200px;
+    height: 250px;
+    border: 1px   solid rgb(197, 30, 141);
+    float: left;
+    margin-top: -250px;
+    margin-left: 60px;
+background-image: url(../text/imde/صور\ جانبيه.jfif);
+background-position:bottom ;
+transition: 1s;
+}
+.insid-pig2:hover {
+    transform: scale(1.1);
+ }
+
+ .p100{
+    color: rgb(192, 7, 121);
+    font-size: 20px;
+    text-align: center;
+}
+
+.p111{
+    color: rgb(192, 7, 121);
+    font-size: 20px;
+    text-align: center;
+}
+.tittle-last{
+    margin-top: 70px;
+    margin-left: 500px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(231, 16, 185);
+    animation-name: oo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes oo{
+    from{
+        color: rgb(228, 14, 139);
+    }
+
+    to{ color: blue;}
+}
+
+.div-small44{
+    width: 50px;
+    height: 2px;
+    background-color: rgb(235, 35, 175);
+    margin: auto;
+    animation-name: afaf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes afaf{
+    from{background-color: rgb(165, 42, 134);}
+    to{background-color: rgb(245, 10, 186); width: 100px}
+}
+
+
+.tottle1,.front1,.backe1{
+    width: 190px;
+    height: 200px;
+    background-image: url(../text/imde/بنت\ تدرس.jfif);
+    background-size: cover;
+}
+
+.backe1{
+    background-image:url(../text/imde/صور\ جانبيه.jfif);
+    background-size: cover;
+}
+
+.tottle1{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 100px;
+    transform-style: preserve-3d;
+    transition:all 2s;
+}
+
+.front1,.backe1{
+    position: absolute;
+}
+
+.front1{
+    z-index: 11;
+}
+
+.tottle1:hover{
+    transform: rotatey(180deg);
+}
+
+.front1{
+    backface-visibility: hidden;
+}
+
+.backe1{
+    transform: rotatey(180deg);
+}
+
+
+
+.tottle2,.front2,.backe2{
+    width: 190px;
+    height: 200px;
+    background-image: url(../text/imde/بنت\ تدرس.jfif);
+    background-size: cover;
+    transition: all 1s;
+}
+
+.backe2{
+    background-image:url(../text/imde/صور\ جانبيه.jfif);
+    background-size: cover;
+}
+
+.tottle2{
+    position: relative;
+    transform-style: preserve-3d;
+    margin-left:600px;
+    margin-top: -230px;
+}
+
+.front2,.backe2{
+    position: absolute;
+}
+
+
+.front2{
+    z-index: 11;
+}
+
+.tottle2:hover{
+    transform: rotateY(180deg);
+}
+
+.front2{
+    backface-visibility: hidden;
+}
+
+.backe2{
+    transform: rotateY(180eg);
+}
+
+
+.tottle3,.front3,.backe3{
+    width: 190px;
+    height:200px;
+    background-image: url(../text/imde/بنت\ تدرس.jfif);
+    background-size: cover;
+    transition: all 2s;
+}
+
+.backe3{
+    background-image:url(../text/imde/صور\ جانبيه.jfif);
+    background-size: cover;
+}
+
+.tottle3{
+    position: relative;
+    margin-left: 1000px;
+    margin-top: -200px;
+    transform-style: preserve-3d;
+}
+
+.front3,.backe3{
+    position: absolute;
+}
+
+.front3{
+    z-index: 11;
+}
+
+.tottle3:hover{
+    transform: rotateY(180deg);
+}
+
+.front3{
+    backface-visibility: hidden;
+}
+
+.backe3{
+    transform: rotateY(180deg);
+}
+
+.dd{
+    font-size: 25px;
+     color: rgb(44, 8, 247);
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.mama1{
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.mama2{
+    margin-left:50%;
+    margin-top: 10px;
+
+}
+
+.mama3{
+    margin-left: 80%;
+    margin-top: 10px;
+
+}
+.gg{
+    color: rgb(221, 5, 138);
+}
+
+
+.tittle-last2{
+margin-top: 70px;
+margin-left: 500px;
+font-size: 35px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(231, 16, 185);
+animation-name: kh;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes kh {
+    from{color: rgb(255, 0, 170);}
+    to{color: blue;}
+    
+    
+}
+
+
+.div-small55{
+    width: 50px;
+    height: 2px;
+    background-color: rgb(235, 35, 175);
+    margin: auto;
+    animation-name: afaf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.tottle4,.front4,.backe4{
+    width:250px;
+    height: 200px;
+    background-image: url(../text/imde/قمر1.jpg);
+    background-size: cover;
+}
+
+.backe4{
+    background-image:url(../text/imde/قمر2.jpg);
+    background-size: cover;
+}
+
+.tottle4{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 100px;
+    transform-style: preserve-3d;
+    transition:all 2s;
+}
+
+.front4,.backe4{
+    position: absolute;
+}
+
+.front4{
+    z-index: 11;
+}
+
+.tottle4:hover{
+    transform: rotatey(180deg);
+}
+
+.front4{
+    backface-visibility: hidden;
+}
+
+.backe4{
+    transform: rotatey(180deg);
+}
+.mama4{
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.gg1{
+    color: rgb(27, 5, 221);
+}
+
+
+
+.tottle5,.front5,.backe5{
+    width: 250px;
+    height: 200px;
+    background-image: url(../text/imde/قمر1.jpg);
+    background-size: cover;
+}
+
+.backe5{
+    background-image:url(../text/imde/قمر2.jpg);
+    background-size: cover;
+}
+
+.tottle5{
+    position: relative;
+    margin-left: 600px;
+    margin-top: -230px;
+    transform-style: preserve-3d;
+    transition:all 2s;
+}
+
+.front5,.backe5{
+    position: absolute;
+}
+
+.front5{
+    z-index: 11;
+}
+
+.tottle5:hover{
+    transform: rotatey(180deg);
+}
+
+.front5{
+    backface-visibility: hidden;
+}
+
+.backe5{
+    transform: rotatey(180deg);
+}
+.mama5{
+    margin-left: 50%;
+    margin-top: 10px;
+}
+.gg1{
+    color: rgb(27, 5, 221);
+}
+
+
+
+
+
+.tottle6,.front6,.backe6{
+    width: 250px;
+    height: 200px;
+    background-image: url(../text/imde/قمر1.jpg);
+    background-size: cover;
+}
+
+.backe6{
+    background-image:url(../text/imde/قمر2.jpg);
+    background-size: cover;
+}
+
+.tottle6{
+    position: relative;
+    margin-left: 1000px;
+    margin-top: -230px;
+    transform-style: preserve-3d;
+    transition:all 2s;
+}
+
+.front6,.backe6{
+    position: absolute;
+}
+
+.front6{
+    z-index: 11;
+}
+
+.tottle6:hover{
+    transform: rotatey(180deg);
+}
+
+.front6{
+    backface-visibility: hidden;
+}
+
+.backe6{
+    transform: rotatey(180deg);
+}
+.mama6{
+    margin-left: 80%;
+    margin-top: 10px;
+}
+.gg1{
+    color: rgb(27, 5, 221);
+}
+
+
+
+.icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../text/imde/total\ icon.jfif);
+    margin-left: 200px;
+}
+
+
+
+.tota{
+    width: 100%;
+    height: 250px;
+    border: 1px  solid black;
+    margin-top: 200px;
+}
+.tota:hover   .icon{
+    background-position: 0 -70.50px    ;
+}
+
+.tota-p{
+    padding-top: 100px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(9, 205, 240);
+}
+
+
+.div-love{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(192, 7, 121);
+    background-color: aliceblue;
+    margin-left: 200px;
+    margin-top: 30px;
+    z-index: 1000;
+    position: absolute;
+    transition: 1s;
+}
+
+.div-love{
+    opacity: 0;
+}
+
+.div-love:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.samara{
+    margin-left: -40px;
+}
+
+
+
+.pig-end{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(240, 6, 197);
+    margin-top: 130px;
+}
+
+
+.img-last{
+    margin-left:40%;
+}
+
+.wad{
+    margin-top:50px;
+    margin-left: 39%;
+}
+
+.rr{
+    color: antiquewhite;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.p-end{
+    color: rgb(250, 248, 250);
+    margin-left: 25px;
+}
